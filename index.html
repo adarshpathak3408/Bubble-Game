@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bubble Master | Online Game </title>
+    <link rel="icon" href="assets/logo.png" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main-page">
+        <div id="start-popUp">
+            <div id="popUp-content">
+
+                <h2>Welcome to Bubble Master Game</h2>
+
+                <p class="para-content">
+                    Get ready for the Bubble Game! <br>
+                    Pop bubbles before time runs out to earn points. <br>
+                    Match the target number and click on corresponding
+                    bubbles to score.<br> <br>
+                    <span class="imp-note"> Note - You can play this only on your Desktop </span>
+                </p>
+
+                <p class="pop-start">Press "Start" to begin</p>
+                <button id="startBtn">Start</button>
+            </div>
+        </div>
+
+        <div id="panel">
+            <div id="panel-top">
+                <div class="menu">
+                    <h2>Target</h2>
+                    <div id="target-value" class="box">0</div>
+                </div>
+
+                <div class="menu">
+                    <h2>Timer</h2>
+                    <div id="time-count" class="box">60</div>
+                </div>
+
+                <div class="menu">
+                    <h2>Score</h2>
+                    <div id="score-value" class="box">0</div>
+                </div>
+            </div>
+
+            <div id="panel-btm">
+                <div class="bubble"></div>
+            </div>
+
+            <audio id="bubbleSound" src="assets/bubble-sound.mp3"></audio>
+        </div>
+        <footer> Developed By - &nbsp; Adarshkumar Pathak &#x2B50; </footer>
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
