@@ -19,7 +19,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /*background-color: rgb(106, 186, 252);*/
     background-color: #8BC6EC;
     background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
 
@@ -211,7 +210,6 @@ footer:hover{
 
 /* Achieving Responsiveness */
 
-/* Small devices (phones) */
 @media only screen and (max-width: 600px) {
     #panel {
         width: 95%;
@@ -247,7 +245,7 @@ footer:hover{
     }
 }
 
-/* Medium devices (tablets) */
+
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
     #panel {
         width: 80%;
@@ -281,9 +279,4 @@ footer:hover{
     footer {
         font-size: 18px;
     }
-}
-
-/* Large devices (desktops) */
-@media only screen and (min-width: 1025px) {
-    /* Use your default styles here */
 }

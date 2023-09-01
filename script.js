@@ -58,7 +58,8 @@ function timerGame() {
             document.querySelector('#target-value').textContent = 0;
             panelBtm.innerHTML = `<h1 id = "end-popUp">Your Score is ${score}</h1>`
         }
-    }, 1000)  
+
+    }, 1000)
 }
 
 function scoreValue () {
